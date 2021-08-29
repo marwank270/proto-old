@@ -1,0 +1,1 @@
+20/07/21 - Commande helper dynamique avec de l'aide pour chaque commande => bouger les  permissions depuis le mod_fun_genHelp vers le help

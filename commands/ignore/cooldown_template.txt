@@ -1,0 +1,14 @@
+const askedCommand = new Set();
+
+if (askedCommand.has(message.guild.id)) {
+        message.channel.send(":clock9: Attends, du calme ! Tu ne peux changer de préfixe de serveur qu'une fois par minute.");
+        return;
+    } else {
+        askedCommand.add(message.guild.id);
+        setTimeout(() => {
+            askedCommand.delete(message.guild.id);
+        }, 120000);
+
+        // Code qui va s'éxecuter si l'utilisateur n'est pas en cooldown;
+
+    }
