@@ -1,0 +1,19 @@
+const Discord = require('discord.js');
+const { prefix, nom, version } = require('../../config.json');
+const stock = require('../../json/stock.json');
+
+module.exports = {
+    name: "name",
+    enabled: true,
+    aliases: ["alias", "alias"],
+    usage: "[usage]",
+    guild: false,
+    category: "category",
+    permission: "PERMISSION",
+    description: "description",
+    run: async(proto, message) => {
+
+        // Code de la commande qui va s'executer
+    
+    }
+}

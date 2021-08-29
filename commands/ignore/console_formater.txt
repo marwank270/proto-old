@@ -1,0 +1,46 @@
+/******** Syntaxe ********/
+\x1b <= balise de modification ANSI de la police de la console
+\x1b[ <= début /// m <= fin
+\1xb[0m <= réinitialise la couleur et la police de base
+
+
+/******** Mise en Forme ********/
+\1xb[1m <= écrit en gras
+\1xb[2m <= écrit en 'désactivé'
+\1xb[3m <= écrit en italique
+\1xb[4m <= écrit en souligné
+\1xb[7m <= écrit en inverse
+\1xb[9m <= écrit en rayé
+
+
+/********  Couleurs ********/
+noir (police) : \x1b[30 texte en noir\x1b[0m 
+noir (background) : \x1b[40 texte écrit sur fond noir\x1b[0m
+
+rouge (police) : \x1b[31 texte en rouge\x1b[0m 
+rouge (background) : \x1b[41 texte écrit sur fond rouge\x1b[0m
+
+vert (police) : \x1b[32 texte en vert\x1b[0m 
+vert (background) : \x1b[42 texte écrit sur fond vert\x1b[0m
+
+jaune (police) : \x1b[33 texte en jaune\x1b[0m 
+jaune (background) : \x1b[43 texte écrit sur fond jaune\x1b[0m
+
+bleu (police) : \x1b[34 texte en bleu\x1b[0m 
+bleu (background) : \x1b[44 texte écrit sur fond bleu\x1b[0m 
+
+magenta (police) : \x1b[35 texte en magenta\x1b[0m 
+magenta (background) : \x1b[45 texte écrit sur fond magenta\x1b[0m 
+
+cyan (police) : \x1b[36 texte en cyan\x1b[0m 
+cyan (background) : \x1b[46 texte écrit sur fond cyan\x1b[0m 
+
+blanc (police) : \x1b[37 texte en blanc\x1b[0m 
+blanc (background) : \x1b[47 texte écrit sur fond blanc\x1b[0m 
+
+Couleur autre (code RGB) (police) : \x1b[38;2;R;G;Bm texte en RGB\x1b[0m 
+Couleur autre (code RGB) (background) : \x1b[48;2;R;G;Bm texte écrit sur fond RGB\x1b[0m
+
+
+/******** Credits ********/
+Traduit depuis : https://tforgione.fr/posts/ansi-escape-codes/
