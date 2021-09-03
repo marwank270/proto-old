@@ -1,0 +1,22 @@
+{
+    "erreurs": {
+        "permissions": {
+            "nicknames": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission de gérer les pseudo)`.",
+            "messages": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission de gérer les messages)`.",
+            "channels": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission de gérer les salons)`.",
+            "roles": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission gérer les rôles)`.",
+            "admin": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission administrateur)`.",
+            "kick": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission d'exclure des membres)`.",
+            "ban": ":x: Tu ne possèdes pas les permissions nécessaire pour utiliser cette commande `(il te faut la permission de bannir des membres)`."
+        },
+        "fichiers": {
+            "bdd": ":x: Une erreur est survenue dans la base de donnée."
+        }
+    },
+    "syntaxe": {
+        "mention": ":question: La syntaxe n'est pas bonne, essaye avec une mention",
+        "guild": ":interrobang: Tu n'es pas dans un serveur ! Cette commande à un utilisation spécifique aux serveurs Discord, je ne peux pas l'utiliser ailleurs. `(rééssaye la commande dans un salon d'un serveur)`.",
+        "args": ":question: Il manque des arguments ou des paramètres, essaye avec"
+    },
+    "setup": ":x: Cette commande est indisponible tant qu'un administrateur n'a pas utilisé la commande `p.setup` pour préparer les bases de données alloués à votre serveur."
+}

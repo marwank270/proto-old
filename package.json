@@ -1,0 +1,19 @@
+{
+    "name": "proto",
+    "version": "0.0.4",
+    "description": "all in one bot",
+    "main": "proto.js",
+    "repository": "https://github.com/marwank270",
+    "author": "Marwank270",
+    "scripts": {
+        "start": "node proto.js"
+    },
+    "dependencies": {
+        "ascii-table": "^0.0.9",
+        "discord.js": "^12.5.3",
+        "fs": "*",
+        "moment": "^2.29.1",
+        "moment-duration-format": "^2.3.2",
+        "mongoose": "^5.13.3"
+    }
+}
