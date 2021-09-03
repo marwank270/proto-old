@@ -98,8 +98,7 @@ proto.on('message', async message => {
     const args = message.content.slice(prefix.length).trim().split(' ').slice(1).join(' ');
 
     const cmd = arg[0].replace(prefix, '');
-    const command = proto.commands.get(cmd) ||
-        proto.commands.find(commande => commande.aliases && commande.aliases.includes(cmd));
+    const command = proto.commands.get(cmd) || proto.commands.find(commande => commande.aliases && commande.aliases.includes(cmd));
 
     if (command.guild === true && message.channel.type === 'dm') {
         message.react('❌')

@@ -1,3 +1,4 @@
+//test de commit
 const Discord = require('discord.js');
 const { prefix, nom, version } = require('../../config.json');
 const stock = require('../../json/stock.json');
