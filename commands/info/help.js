@@ -42,6 +42,8 @@ module.exports = {
 
         if (arg[1]) { // si il y a un argument derrière, help dynamique
 
+            if (!command) return message.channel.send(':question: Humm nan, connait pas cette commande moi.(les alias ne sont pas pris en compte ici).');
+
             let authorIcon;
             let embedColor;
 
@@ -55,8 +57,6 @@ module.exports = {
             } else {
                 authorIcon = proto.user.avatarURL();
             }
-
-            if (!command) return message.channel.send(':question: Humm nan, connait pas cette commande moi. (les alias ne comptent pas ici).');
 
             //data.push(`**Commande:** ${command.name}`)
             if (command.aliases) data.push(`**Alias:** \`${command.aliases.join('/')}\`.`);
